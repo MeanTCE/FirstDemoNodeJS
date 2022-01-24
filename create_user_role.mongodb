@@ -1,0 +1,18 @@
+const database='admin'
+
+use(database)        //เลือกฐานข้อมูล
+
+db.getUsers()       //list user ในฐานข้อมูลที่เลือก
+
+//db.drobUser("Teerapat")       //ลบ user
+
+// db.createUser({
+//     user: 'Teerapat',
+//     pwd: '123456',
+//     roles:[
+//         {
+//             role:"userAdminAnyDatabase",
+//             db: "admin",
+//         },  "readWriteAnyDatabase"
+//     ]
+// })
